@@ -1,0 +1,3 @@
+displayName = Scorched Earth
+author = Epsi
+version = 0.1
