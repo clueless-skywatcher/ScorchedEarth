@@ -13,7 +13,10 @@ namespace ScorchedEarth.Items.Weapons.Swords{
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Stellar Spatha");
-            Tooltip.SetDefault("Big Sword with low knockback but stuns enemies on impact");
+            Tooltip.SetDefault(
+                @"Giant Sword made from the essence of a thousand ancient stars\n
+                Weapon Power: Dazzling Might - Stuns enemies on impact"
+            );
         }
 
         public override void SetDefaults()

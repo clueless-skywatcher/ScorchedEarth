@@ -40,7 +40,7 @@ namespace ScorchedEarth.Items.Armor.Head
         }
 
         public override void UpdateArmorSet(Player player){
-            player.setBonus = "+30% movement speed; Shine in the dark";
+            player.setBonus = "Armor Power - Argent Agility: +30% movement speed\nShine in the dark";
             player.moveSpeed += 0.30f;
             player.AddBuff(BuffID.Shine, 79200);
         }
